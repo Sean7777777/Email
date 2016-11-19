@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:src="@drawable/mail_163"
+            android:id="@+id/image_163"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10sp"
+            android:src="@drawable/mail_126"
+            android:id="@+id/image_126"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:src="@drawable/mail_souhu"
+            android:id="@+id/image_souhu"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10sp"
+            android:src="@drawable/mail_sina"
+            android:id="@+id/image_sina"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:src="@drawable/mail_qq"
+            android:id="@+id/image_qq"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10sp"
+            android:src="@drawable/mail_google"
+            android:id="@+id/image_google"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
